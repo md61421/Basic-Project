@@ -93,11 +93,11 @@ a {
   padding: 30px 25px;
   display: grid;
   grid-auto-flow: column;
+  justify-content: space-around;
 }
 
 .cards{
   margin: 20px ;
-  width: 500px;
 }
 
 .cards img{
@@ -116,4 +116,28 @@ a {
 img:hover{
   width: 550px;
   height: 750px;
+}
+
+.hr_line{
+  padding: 100px 50px;
+  background-color: #f4f4f4;
+}
+
+.hr_line div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.f_engagements{
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 50px;
+}
+
+.f_engagements p{
+  text-transform: uppercase;
+  display: table-caption;
+  font-size: 50px;
+  font-weight: 900;
 }
