@@ -33,7 +33,6 @@ a {
 
 .navBar ul li a:hover {
   font-size: 25px;
-
 }
 
 #icon_1 {
@@ -65,28 +64,28 @@ a {
   padding: 88px 150px 0px 150px;
 }
 
-.btnBg{
-    background-color: #f4f4f4;
-    max-width: 100%;
-    height: 50px;
-    padding-left: 80px;
+.btnBg {
+  background-color: #f4f4f4;
+  max-width: 100%;
+  height: 50px;
+  padding-left: 80px;
 }
 
-.btnBg button{
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 10px;
-    width: 150px;
-    font-weight: bold;
-    background-color: #f4f4f4;
-    transition: 250ms;
+.btnBg button {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+  background-color: #f4f4f4;
+  transition: 250ms;
 }
 
-.btnBg button:hover{
-    background-color: #cccccc;
+.btnBg button:hover {
+  background-color: #cccccc;
 }
 
-.cards_container{
+.cards_container {
   background-color: #f4f4f4;
   max-width: 100%;
   height: 900px;
@@ -96,46 +95,46 @@ a {
   justify-content: space-around;
 }
 
-.cards{
-  margin: 20px ;
+.cards {
+  margin: 20px;
 }
 
-.cards img{
+.cards img {
   width: 500px;
   height: 700px;
   object-fit: cover;
   transition: 0.5s;
 }
 
-.card_info{
+.card_info {
   width: 250px;
   padding: 20px;
   transition: 0.5s;
 }
 
-img:hover{
+img:hover {
   width: 550px;
   height: 750px;
 }
 
-.hr_line{
+.hr_line {
   padding: 100px 50px;
   background-color: #f4f4f4;
 }
 
-.hr_line div{
+.hr_line div {
   display: flex;
   justify-content: space-between;
   margin: 10px 0px;
 }
 
-.f_engagements{
+.f_engagements {
   background-color: #f4f4f4;
   width: 100%;
   padding: 50px;
 }
 
-.f_engagements p{
+.f_engagements p {
   text-transform: uppercase;
   display: table-caption;
   font-size: 50px;
